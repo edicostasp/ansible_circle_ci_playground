@@ -15,6 +15,6 @@ Resources:
       InstanceType: t2.micro
       SecurityGroups:
         - !Ref InstanceSecurityGroup
-      KeyName: udacity3
+      KeyName: udacity_p3
       ImageId: ami-0d5eff06f840b45e9 # you may need to find out what instance types are available in your region - use https://cloud-images.ubuntu.com/locator/ec2/
       
